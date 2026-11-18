@@ -1,0 +1,76 @@
+# ==============================================================================
+# Byte-compiled / optimized / DLL files
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ==============================================================================
+# Model weights and checkpoints (large binary files)
+# ==============================================================================
+*.pth
+*.pt
+*.bin
+*.onnx
+checkpoints/*
+!checkpoints/.gitkeep
+!checkpoints/README.md
+
+# ==============================================================================
+# Output mask directories and generated results
+# ==============================================================================
+SEMANTIC_MASKS/
+SEMANTIC_MASKS_OUTPUT_3DREALCAR_CUSTOM/
+SEMANTIC_OVERLAYS_OUTPUT_3DREALCAR_CUSTOM/
+
+# ==============================================================================
+# Distribution / packaging
+# ==============================================================================
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==============================================================================
+# Virtual environments
+# ==============================================================================
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ==============================================================================
+# Datasets (large archives and extracted datasets)
+# ==============================================================================
+datasets/
+*.zip
+*.tar
+*.tar.gz
+
+# ==============================================================================
+# Editor and OS artifacts
+# ==============================================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
