@@ -364,12 +364,17 @@ If you find this work, repository, or method useful for your research, please ci
 Please also cite the associated dataset available on Zenodo:
 
 ```bibtex
-@misc{vehicle_multiview_dataset_zenodo,
-  title={Multi-View Vehicle Part Segmentation Dataset},
-  author={COMING SOON},
-  year={COMING SOON},
-  publisher={Zenodo},
-  howpublished={\url{https://zenodo.org/records/24309595}}
+@dataset{notaro_2026_24309595,
+  author       = {Notaro, Fabio and
+                  FRANCO, ANNALISA and
+                  BORGHI, GUIDO and
+                  Vezzani, Roberto},
+  title        = {CarGaze},
+  month        = nov,
+  year         = 2026,
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.24309595},
+  url          = {https://doi.org/10.5281/zenodo.24309595},
 }
 ```
 
